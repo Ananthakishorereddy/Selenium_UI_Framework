@@ -1,0 +1,20 @@
+qa:
+  base_url: "https://automationexercise.com"
+  browser: "chrome"
+  implicit_wait: 10
+  explicit_wait: 15
+  headless: false
+
+staging:
+  base_url: "https://automationexercise.com"
+  browser: "chrome"
+  implicit_wait: 10
+  explicit_wait: 15
+  headless: true
+
+headless_ci:
+  base_url: "https://automationexercise.com"
+  browser: "chrome"
+  implicit_wait: 10
+  explicit_wait: 20
+  headless: true

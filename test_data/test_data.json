@@ -1,0 +1,43 @@
+{
+  "valid_user": {
+    "email": "ananthakishore3@gmail.com",
+    "password": "Testuser@123"
+  },
+  "invalid_users": [
+    {
+      "email": "wrongemail@test.com",
+      "password": "WrongPass123",
+      "expected_error": "Your email or password is incorrect!"
+    },
+    {
+      "email": "baduser@fake.com",
+      "password": "12345",
+      "expected_error": "Your email or password is incorrect!"
+    }
+  ],
+  "new_user": {
+    "name": "QA Automation",
+    "password": "Test@1234",
+    "day": "15",
+    "month": "January",
+    "year": "1990",
+    "first_name": "QA",
+    "last_name": "Automation",
+    "company": "Test Corp",
+    "address1": "123 Test Street",
+    "address2": "Apt 4B",
+    "country": "United States",
+    "state": "California",
+    "city": "Los Angeles",
+    "zipcode": "90001",
+    "mobile": "1234567890"
+  },
+  "search_products": [
+    {"keyword": "dress", "expected_results_min": 1},
+    {"keyword": "top", "expected_results_min": 1},
+    {"keyword": "shirt", "expected_results_min": 1}
+  ],
+  "subscription": {
+    "email": "subscriber@testmail.com"
+  }
+}
